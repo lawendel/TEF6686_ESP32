@@ -1,6 +1,6 @@
 // [number of languages][number of texts][max. length of text]
 
-static const char* const myLanguage[13][99] = {
+static const char* const myLanguage[14][99] = {
   { "English",                        // English
     "Rotary direction changed", // 1
     "Please release button", // 2
@@ -1312,7 +1312,107 @@ static const char* const myLanguage[13][99] = {
     "50% яскравості", // 96
 	"Зміщення рівня AM RF:", // 97	
 	"Вимірник сигналу:" // 98	
-  }
+  },
+{ “Italiano”,                        // Italian
+     “Senso rotaz. modificato”, // 1
+     "Rilascia il pulsante", // 2
+     "Schermo capovolto", // 3
+     "Calibraz. meter analogico", // 4
+     “Se pronto, rilasciare pulsante", // 5
+     “Codifica di freq: ottica”, // 6
+     “Ccodifica di freq: standard", // 7
+     "Ricevitore FM/AM", // 8
+     “Ricevitore: !Nessuno!", // 9
+     "Volume:", // 10
+     "Convertitore:", // 11
+     “Limite di banda inf.:”, // 12
+     “Limite di banda sup.:”, // 13
+     "Offset livello RF FM:", // 14
+     "Soglia stereo:", // 15
+     "Angolo di taglio alti:”, // 16
+     "Soglia di taglio alti:”, // 17
+     "Soglia di basso livello:", // 18
+     "Contrasto:", // 19
+     "Imposta volume", // 20
+     "Imp. offset conversione”, // 21
+     "Imp. limite di banda inf.”, // 22
+     "Imp. limite di banda sup.”, // 23
+     "Imp. offset di livello", // 24
+     "Imp. soglia separaz. stereo", // 25
+     "Imp. frequenza taglio alti“, // 26
+     "Imp. soglia taglio alti”, // 27
+     "Imp. soglia di livello basso", // 28
+     "Imp. la luminosità del display", // 29
+     "Off", // 30
+     “Schermo disattivato!", // 31
+     “Deselez. box RF+ per riatt. audio“, // 32
+     "OFF", // 33
+     "SCANSIONE...", // 34
+     “Ricevitore non rilevato", // 35
+     "Versione ricevitore impostata: v", // 36
+     "Riavvia il ricevitore”, // 37
+     "Mostra errori RDS", // 38
+     "Lingua", // 39
+     "Scegli la lingua", // 40
+     “SALVA E ESCI: PREMI MODE”, // 41
+     "On", // 42
+     "Softmute FM", // 43
+     "Softmute AM", // 44
+     "Beep sul limite di banda", // 45
+     "Regione", // 46
+     "Europa", // 47
+     "USA", // 48
+     "Mostra trattino basso in RDS", // 49
+     "Modalità USB", // 50
+     "Wi-Fi attivo", // 51
+     "Configura Wi-Fi", // 52
+     "Connetti a: ", // 53
+     "per configurare il Wi-Fi", // 54
+     “Connessione al Wi-Fi", // 55
+     “NON RIUSCITA. WiFi inattivo”, // 56
+     "CONNESSO!", // 57
+     "IP per StationList“, // 58
+     "Mostra banda SW in m.“, // 59
+     "Filtro RDS", // 60
+     "Mostra errori PI", // 61
+     "Mostra squelch", // 62
+     "Meter di modulazione", // 63
+     “Soppressione rumore AM”, // 64
+     "Soppressione rumore FM", // 65
+     "Predefiniti caricati", // 66
+     "Uscita audio", // 67
+     “Passo 30 kHz per FM OIRT", // 68
+     "Inversione schermo”, // 69
+     "Info sul software", // 70
+     "Codice principale:", // 71
+     “Collaboratori:”, // 72
+     "Sconosciuto", // 73
+     "Opzioni risparmio energia", // 74
+     “Deep sleep“, // 75
+     "Schermo spento", // 76
+     “Motivo display”, // 77
+     "Predefinito", // 78
+     "Ciano", // 79
+     "Cremisi", // 80
+     "Monocromatico", // 81
+     "Vulcano", // 82
+     "Dendro", // 83
+     "Sakura", // 84
+     “Sbiancato”, // 85
+     “IMPOSSIBILE", // 86
+     "AF non disponibile", // 87
+     "EON non disponibile", // 88
+     "RT+ non disponibile", // 89
+     “Passo di sintonia predef. FM", // 90
+     "Salvaschermo", // 91
+     "Secondi”, // 92
+     "PREMI BAND PER CHIUDERE", // 93
+     "1% luminosità", // 94
+     "25% di luminosità", // 95
+     "50% di luminosità", // 96
+"Offset livello RF AM:", // 97
+"Unità S-meter:” // 98
+}
 };
 
 static const char* const myCountries[] {
